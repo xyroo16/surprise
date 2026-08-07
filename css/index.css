@@ -25,7 +25,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  color: white;
+  color: mediumpurple;
   font-family: 'Courier New', Courier, monospace;
 
   display: flex;
@@ -36,7 +36,7 @@
 
   width: 100%;
   height: 100vh;
-  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px purple;
   letter-spacing: 0px;
 }
 
@@ -108,4 +108,4 @@ a {
 .btn:hover .sparkle {
   fill: white;
   transform: scale(1.2);
-}
+  }
