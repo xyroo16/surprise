@@ -7,9 +7,12 @@
 }
 :root {
     --dark-color: #000;
-    --flower-color: #0099ff;      /* main bright blue */
-    --flower-light: #66ccff;       /* light sky blue */
-    --flower-glow: #99ddff;        /* soft glow blue */
+    --flower-color: #0099ff;  
+    --flower-light: #66ccff;
+    --flower-glow: #99ddff;
+}
+:root {
+  --dark-color: #000;
 }
 
 .title {
