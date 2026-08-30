@@ -5,11 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-:root {
-  --dark-color: #000;
-  --flower-color: #b266ff;
-  --flower-light: #d8b4ff;
-  --flower-glow: #c77dff;
+::root {
+    --dark-color: #000;
+    --flower-color: #66b3ff;    /* light blue */
+    --flower-light: #99ccff;     /* lighter blue */
+    --flower-glow: #cce0ff;     /* soft glow blue */
 }
 :root {
   --dark-color: #000;
