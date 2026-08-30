@@ -5,14 +5,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-::root {
-    --dark-color: #000;
-    --flower-color: #66b3ff;    /* light blue */
-    --flower-light: #99ccff;     /* lighter blue */
-    --flower-glow: #cce0ff;     /* soft glow blue */
-}
 :root {
-  --dark-color: #000;
+    --dark-color: #000;
+    --flower-color: #0099ff;      /* main bright blue */
+    --flower-light: #66ccff;       /* light sky blue */
+    --flower-glow: #99ddff;        /* soft glow blue */
 }
 
 .title {
