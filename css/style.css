@@ -6,13 +6,11 @@
   box-sizing: border-box;
 }
 :root {
-    --dark-color: #000;
-    --flower-color: #0099ff;  
-    --flower-light: #66ccff;
-    --flower-glow: #99ddff;
-}
-:root {
-  --dark-color: #000;
+  --dark-color: #1E1B4B;      /* Deep dark purple background */
+  --flower-color: #7C3AED;    /* Main rich purple — royal & bright */
+  --flower-light: #C4B5FD;    /* Soft light purple — highlights */
+  --flower-glow: #A78BFA;     /* Glow/shine — medium bright */
+  --white-part: #F8F5FF;      /* Very pale purple-white — under flowers */
 }
 
 .title {
@@ -25,7 +23,7 @@
   color: dodgerblue;
   font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
-  text-shadow: 0px 0px 20px skyblue;
+  text-shadow: 0px 0px 20px purple;
 }
 
 body {
@@ -173,7 +171,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: skyblue;
+  background-color: purple;
   filter: blur(10vmin);
 }
 
@@ -184,7 +182,7 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #4169E1;
+  background-color: #9370DB;
   background-image: linear-gradient(to top, #fff, #fff);
   transform-origin: bottom center;
   opacity: 0.9;
@@ -1238,10 +1236,10 @@ body {
 }
 
 .flower__light {
-  background-color: #c77dff;
+  background-color: #C4B5FD;
 }
 
 .flower__light:nth-child(odd) {
-  background-color: #0000ff;
+  background-color: #C4B5FD;
 }
 /*# sourceMappingURL=flower.css.map */
