@@ -6,11 +6,11 @@
   box-sizing: border-box;
 }
 :root {
-  --dark-color: #1E1B4B;      /* Deep dark purple background */
-  --flower-color: #7C3AED;    /* Main rich purple — royal & bright */
-  --flower-light: #C4B5FD;    /* Soft light purple — highlights */
-  --flower-glow: #A78BFA;     /* Glow/shine — medium bright */
-  --white-part: #F8F5FF;      /* Very pale purple-white — under flowers */
+  --dark-color: #0F172A;      /* Deep dark blue background */
+  --flower-color: #2563EB;    /* Main rich blue — royal & bright */
+  --flower-light: #BFDBFE;    /* Soft light blue — highlights */
+  --flower-glow: #93C5FD;     /* Glow/shine — medium bright */
+  --white-part: #EFF6FF;      /* Very pale blue-white — under elements */
 }
 
 .title {
@@ -20,7 +20,7 @@
   margin-top: 50px;
   top: 0;
   left: 0;
-  color: purple;
+  color: lightblue;
   font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
   text-shadow: 0px 0px 20px purple;
